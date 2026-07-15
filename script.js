@@ -1,3 +1,4 @@
+console.log("MüzikLab başladı");
 const notes = [
   "C4",
   "D4",
