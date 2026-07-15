@@ -1,1 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,Helvetica,sans-serif;
+}
 
+body{
+    background:#101114;
+    color:white;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#app{
+    width:95%;
+    max-width:420px;
+    background:#1b1d23;
+    border-radius:20px;
+    padding:25px;
+    box-shadow:0 0 25px rgba(0,0,0,.5);
+}
+
+header{
+    text-align:center;
+    margin-bottom:25px;
+}
+
+header h1{
+    color:#38d39f;
+    margin-bottom:8px;
+}
+
+header p{
+    color:#bbb;
+}
+
+button{
+    width:100%;
+    padding:15px;
+    margin-top:12px;
+    border:none;
+    border-radius:12px;
+    font-size:18px;
+    cursor:pointer;
+    transition:.2s;
+    background:#38d39f;
+    color:white;
+}
+
+button:hover{
+    transform:scale(1.03);
+}
+
+#noteButtons{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:10px;
+    margin-top:20px;
+}
+
+#playBtn{
+    background:#4b7bec;
+}
+
+#teacherBtn{
+    background:#27ae60;
+}
+
+#studentBtn{
+    background:#9b59b6;
+}
+
+hr{
+    margin:25px 0;
+    border:1px solid #333;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:15px;
+}
+
+#result{
+    margin-top:25px;
+    text-align:center;
+    color:#ffd166;
+}
+
+h3{
+    text-align:center;
+    margin-top:15px;
+}
